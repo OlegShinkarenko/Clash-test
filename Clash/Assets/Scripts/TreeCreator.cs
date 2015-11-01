@@ -6,6 +6,8 @@ public class TreeCreator : MonoBehaviour {
 	public Transform prefab;
 	// Use this for initialization
 	void Start () {
+
+
 		for (int i = 0; i < 17; i++) {
 			Instantiate(prefab, new Vector3(i * 8F + 7F, 0, - 5F), Quaternion.identity);
 		}
